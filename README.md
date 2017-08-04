@@ -16,7 +16,7 @@
     能使用ARKit；
 
 ## 3.RKit与SceneKit关系
-[arkit.png];  
+![arkit](arkit.png);  
     在一个完整的虚拟增强现实体验中，ARKit框架值负责将真实花名转变为一个3D场景，这一个转
     变的过程分为两个环节：由ARCamera负责捕捉摄像头花名，有ARSession负责搭建3D长江；将
     虚拟物体显示在3D长江中是由SceneKit框架来完成的，每一个虚拟的物体都一个节点SCNNode，
