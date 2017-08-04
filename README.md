@@ -43,7 +43,7 @@
     
 ## 5.ARKit工作流程
     ①   ARSCNView加载场景SCNScene；
-    ②	SCNScene启动相机ARCamera开始捕捉场景；
-    ③	捕捉场景后ARSCNView开始讲场景数据交给Session；
-    ④	Session通通过管理ARSessionConfiguration实现场景的追踪并且返回一个ARFrame；
-    ⑤	给ARSCNView的scene添加一个子节点（3D物体模型）
+    ②   SCNScene启动相机ARCamera开始捕捉场景；
+    ③   捕捉场景后ARSCNView开始讲场景数据交给Session；
+    ④   Session通通过管理ARSessionConfiguration实现场景的追踪并且返回一个ARFrame；
+    ⑤   给ARSCNView的scene添加一个子节点（3D物体模型）
